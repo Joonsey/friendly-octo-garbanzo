@@ -1,0 +1,19 @@
+[11:38:32] [ServerMain/ERROR]: Failed to load properties from file: server.properties
+java.nio.file.NoSuchFileException: server.properties
+	at java.base/sun.nio.fs.UnixException.translateToIOException(Unknown Source) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(Unknown Source) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newFileChannel(Unknown Source) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(Unknown Source) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Unknown Source) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Unknown Source) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(Unknown Source) ~[?:?]
+	at java.base/java.nio.file.Files.newInputStream(Unknown Source) ~[?:?]
+	at ars.b(SourceFile:62) [server-1.21.10.jar:?]
+	at arp.a(SourceFile:153) [server-1.21.10.jar:?]
+	at arq.<init>(SourceFile:12) [server-1.21.10.jar:?]
+	at net.minecraft.server.Main.main(SourceFile:115) [server-1.21.10.jar:?]
+	at net.minecraft.bundler.Main.lambda$run$0(Main.java:54) [server.jar:?]
+	at java.base/java.lang.Thread.run(Unknown Source) [?:?]
+[11:38:32] [ServerMain/WARN]: Failed to load eula.txt
+[11:38:32] [ServerMain/INFO]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
